@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>585514df-9c35-4075-847e-f453a438d5f0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedEntity\MedEntity.csproj" />
+    <ProjectReference Include="..\MedInterface\MedInterface.csproj" />
+    <ProjectReference Include="..\MedRepository\MedRepository.csproj" />
+    <ProjectReference Include="..\MedService\MedService.csproj" />
+  </ItemGroup>
+
+
+</Project>

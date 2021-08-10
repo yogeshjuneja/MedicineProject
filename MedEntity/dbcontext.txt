@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Server=####;Initial Catalog=####;Persist Security Info=True;User ID=####;Password=####;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir ContextModel -Context DBContext -Project MedRepository -Force
